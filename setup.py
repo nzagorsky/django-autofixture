@@ -74,6 +74,6 @@ setup(
         'autofixture',
         'autofixture.management',
         'autofixture.management.commands'],
-    install_requires = ['setuptools'],
+    install_requires = ['setuptools', 'six'],
     test_suite = 'runtests.runtests',
 )
